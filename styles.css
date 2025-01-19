@@ -87,15 +87,15 @@
   transition: all 0.3s;
 }
 
-.main-nav-link:hover,
-.main-nav-link:active {
+.main-nav-link:active,
+.main-nav-link:only-child {
   color: #cf711f;
 }
 
 /* FOR HIGHER SPECIFICITY and to make sure that the effects always apply */
 /* REMEMBER!----no spaces between .main-nav-link.nav-cta */
 .main-nav-link.nav-cta:link,
-.main-nav-link.nav-cta:visited {
+.main-nav-link.nav-cta:visit {
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
